@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\alper\\Desktop\\notes-app\\server\\api\\api.csproj": {}
+    "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\alper\\Desktop\\notes-app\\server\\api\\api.csproj": {
+    "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alper\\Desktop\\notes-app\\server\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "c:\\Users\\alper\\Desktop\\notes-app\\server\\api\\api.csproj",
+        "projectPath": "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alper\\Desktop\\notes-app\\server\\api\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

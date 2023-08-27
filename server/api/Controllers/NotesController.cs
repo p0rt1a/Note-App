@@ -17,9 +17,13 @@ namespace api.Controllers
         }
     
         [HttpGet]
-        public IActionResult GetAll([FromQuery]string text = "") {
-            var notes = _context.Notes.Where(x => x.Title.Contains(text.ToLower()) || x.Body.Contains(text.ToLower())).ToList<Note>();
+        public IActionResult GetAll([FromQuery]string text = default) {
+            var notes = _context.Notes.ToList<Note>();
             
+            if (text != default) {
+                notes = _context.Notes.Where(x => x.Title.ToLower().Contains(text.ToLower()) || x.Body.ToLower().Contains(text.ToLower())).ToList<Note>();
+            }
+
             return Ok(notes);
         }
 
@@ -36,7 +40,7 @@ namespace api.Controllers
 
             _context.SaveChanges();
 
-            return Ok();
+            return Ok(note);
         }
 
         [HttpPut]
@@ -49,7 +53,7 @@ namespace api.Controllers
 
             _context.SaveChanges();
 
-            return Ok();
+            return Ok(note);
         }
 
         [HttpDelete("{id}")]

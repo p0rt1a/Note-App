@@ -34,9 +34,9 @@ namespace api
                 name:  MyAllowOrigins,
                 builder => {
                     builder
+                    .AllowAnyOrigin()
                     .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowAnyOrigin();  
+                    .AllowAnyMethod();
                 });
             });
 
