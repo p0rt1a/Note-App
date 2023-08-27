@@ -1,4 +1,5 @@
 /client/node_modules
 /client/.env
-*.vscode
-/dlient/build
+/.vscode
+/server/.vscode
+/client/build
