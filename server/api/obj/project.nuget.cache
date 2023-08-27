@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lDbEQ0H5RiWJU1fw+76CowQeyPyR0OHP2bAgyeCPv6OYOavU6HiKNx/geaPLtX59Gbjgk70a8f1nZZH1KYsaGg==",
+  "dgSpecHash": "hxn4IjAUfZ2RDfu/Ikw/2pJQ6lYQRiUkyHAL9403ODsXVTv/zE/o502Qwl4xHL92KDkyqlK/tBTgKjdUfGx3HA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj",
+  "projectFilePath": "c:\\Users\\alper\\Desktop\\My Websites\\notes-app\\server\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alper\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\alper\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
